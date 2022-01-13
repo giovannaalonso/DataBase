@@ -47,3 +47,4 @@ SELECT * FROM tb_personagem WHERE nomePersonagem LIKE '%c%';
 SELECT * FROM tb_personagem INNER JOIN tb_classe ON tb_personagem.classeId = tb_classe.classeId;
 
 SELECT * FROM tb_personagem WHERE classificacaoDoPersonagem = "DPS";
+
